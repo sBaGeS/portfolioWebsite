@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/portfolioWebsite/static/css/main.114e3eeb.css",
+    "main.js": "/portfolioWebsite/static/js/main.22317959.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolioWebsite/static/js/787.1ed0c42c.chunk.js",
+    "static/media/logo.png": "/portfolioWebsite/static/media/logo.b652eb8742acb8e07820.png",
+    "static/media/project1.png": "/portfolioWebsite/static/media/project1.0f99460ab3610eab5d0d.png",
+    "static/media/project4.png": "/portfolioWebsite/static/media/project4.acda3532c04f025a3848.png",
+    "static/media/bg6.jpg": "/portfolioWebsite/static/media/bg6.4375f16d8f5cf97d630d.jpg",
+    "static/media/project3_pic4.png": "/portfolioWebsite/static/media/project3_pic4.a574a24b3f8156361a6e.png",
+    "static/media/project1_pic1.png": "/portfolioWebsite/static/media/project1_pic1.727f0a2125087bbf4449.png",
+    "static/media/project1_pic2.png": "/portfolioWebsite/static/media/project1_pic2.82a04413b9a3582222b4.png",
+    "static/media/project3_pic3.png": "/portfolioWebsite/static/media/project3_pic3.a12f117ebd09b04ac578.png",
+    "static/media/project2_pic1.png": "/portfolioWebsite/static/media/project2_pic1.e47aff4ab2df5ea96450.png",
+    "static/media/project1_pic5.png": "/portfolioWebsite/static/media/project1_pic5.263e82a1aa92d4cf757b.png",
+    "static/media/project3.png": "/portfolioWebsite/static/media/project3.202a52a71c0e32c8877c.png",
+    "static/media/project1_pic4.png": "/portfolioWebsite/static/media/project1_pic4.2e7cdb6e3117ea398638.png",
+    "static/media/project3_pic1.png": "/portfolioWebsite/static/media/project3_pic1.d120269eb0bafc6dc7f5.png",
+    "static/media/project1_pic3.png": "/portfolioWebsite/static/media/project1_pic3.1f33a06fa7467d518fea.png",
+    "static/media/project2.png": "/portfolioWebsite/static/media/project2.5a5e0458873a426788e3.png",
+    "static/media/project1_pic6.png": "/portfolioWebsite/static/media/project1_pic6.4b95f71e373b2aca4a90.png",
+    "static/media/project2_pic2.png": "/portfolioWebsite/static/media/project2_pic2.40046c5c60187208fe61.png",
+    "index.html": "/portfolioWebsite/index.html",
+    "main.114e3eeb.css.map": "/portfolioWebsite/static/css/main.114e3eeb.css.map",
+    "main.22317959.js.map": "/portfolioWebsite/static/js/main.22317959.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolioWebsite/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.114e3eeb.css",
+    "static/js/main.22317959.js"
+  ]
+}
