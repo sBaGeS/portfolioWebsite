@@ -22,16 +22,16 @@ export default function ProjectTemplate() {
 
     function handleNavigation(project_id){
        if(project_id == 1){
-        navigate("/portfolioWebsite/portfolioWebsite/project1");
+        navigate("/project1");
        }
        if(project_id == 2){
-        navigate("/portfolioWebsite/portfolioWebsite/project2");
+        navigate("/project2");
        }
        if(project_id == 3){
-        navigate("/portfolioWebsite/portfolioWebsite/project3");
+        navigate("/project3");
        }
        if(project_id == 4){
-        navigate("/portfolioWebsite/portfolioWebsite/project4");
+        navigate("/project4");
        }
     }
 
