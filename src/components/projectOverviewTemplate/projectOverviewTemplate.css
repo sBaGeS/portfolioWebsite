@@ -1,0 +1,125 @@
+#templateGrid{
+    display: grid;
+    width: 97.5%;
+    height: 750px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    margin-left: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    background-color: rgba(236, 243, 192, 1);
+    border: 2px solid black;
+    padding: 10px;
+  }
+
+  .grid_item{
+    outline: 2px solid black;
+    text-align: center;
+    background-color: rgba(236, 220, 172, 1);
+    margin: 10px;
+    padding: 20px;
+    height: 480px;
+  }
+
+  .projectPhoto{
+    height: 40%;
+    width: 100%;
+    object-fit: scale-down;
+  }
+
+  h2{
+    font-size: 18px;
+  }
+
+  .project_title{
+    color: black;
+    cursor: pointer;
+  }
+
+  .githubButton{
+    font-size: 16px;
+    background-color: rgba(236, 243, 192, 1);
+    border: black 2px solid;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    cursor: pointer;
+}
+
+.projectButton{
+  cursor: pointer;
+}
+
+  @media only screen and (min-width: 1350px) and (max-width: 1600px){
+    #templateGrid{
+        display: grid;
+        width: 97%;
+        height: 760px;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+      .grid_item{
+        height: 480px;
+      }
+  }
+
+  /*tablet*/
+@media only screen and (min-width: 1150px) and (max-width: 1350px){
+    #templateGrid{
+        display: grid;
+        width: 96.5%;
+        height: 760px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      .grid_item{
+        height: 500px;
+      }
+  }
+
+  @media only screen and (min-width: 850px) and (max-width: 1150px){
+    #templateGrid{
+        display: grid;
+        width: 95.5%;
+        height: 1130px;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .grid_item{
+        height: 500px;
+      }
+  }
+
+  @media only screen and (min-width: 650px) and (max-width: 850px){
+    #templateGrid{
+        display: grid;
+        width: 93.5%;
+        height: 1050px;
+        grid-template-columns: 1fr 1fr;
+      }
+      .grid_item{
+        height: 460px;
+      }
+      .projectPhoto{
+        height: 45%;
+        width: 100%;
+        object-fit: scale-down;
+      }
+  }
+
+  /*mobile*/
+  @media only screen and (max-width: 650px){  
+    #templateGrid{
+        display: grid;
+        width: 88%;
+        height: 2500px;
+        grid-template-columns: 1fr;
+      }
+      .grid_item{
+        height: 540px;
+      }
+      .projectPhoto{
+        height: 55%;
+        width: 100%;
+        object-fit: scale-down;
+      }
+  }

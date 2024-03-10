@@ -1,0 +1,85 @@
+
+.project_child.bottom{
+margin-bottom: 70px;
+}
+
+.title_div{
+  text-align: center;
+}
+
+.video{
+  display: block;
+  margin: 0 auto;
+}
+
+.project_title{
+  color: blue;
+  margin-left: 40px;
+}
+
+.title{
+border: 2px solid red;
+display:inline;
+padding-left: 10px;
+padding-right: 10px;
+border-bottom-style: dashed;
+color: black;
+}
+
+.text_project{
+font-weight: 700;
+}
+
+.project_box {
+ padding: 10px;
+}
+
+.project_child {
+  width: calc(100% - 44px);
+  padding: 20px;
+  background-color: rgba(236, 243, 192, 1);
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.picture_grid{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.picture_grid.large{
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.picture{
+  width: 100%;
+}
+
+@media only screen and (min-width: 650px) and (max-width: 850px){  
+  .picture_grid{
+    grid-template-columns: 1fr;
+  }
+  .video{
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media only screen and (max-width: 650px){ 
+  .picture_grid{
+    grid-template-columns: 1fr;
+  }
+  .video{
+    width: 320px;
+    height: 190px;
+  }
+  }
+
+

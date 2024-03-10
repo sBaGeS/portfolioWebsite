@@ -1,0 +1,59 @@
+#footerRoot{
+    background-color: rgba(210, 208, 187, 1);
+    height: 60px;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+}
+
+#contact_info_label{
+    margin-top: 5px;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+#email_info{
+    padding-top: 2px;
+    font-size: 15px;
+    font-weight: 700;
+    color: red;
+}
+
+#emailIcon{
+  margin-right: 2px;
+}
+
+#contactIcon{
+  margin-right: 2px;
+  margin-top: 3px;
+}
+
+#footer_left{
+  margin-left: 2%;
+}
+
+#footer_left{
+  width: 300px;
+  float: left;
+}
+
+#contactButton{
+  font-size: 18px;
+  background-color: rgba(236, 243, 192, 1);
+  border: black 2px solid;
+  border-radius: 15px;
+  font-weight: 600;
+  margin-top: 10px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 650px){ 
+  #contactButton{
+    font-size: 11px;
+  }
+  #footer_left{
+    width: 250px;
+    float: left;
+  }
+  }

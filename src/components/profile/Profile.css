@@ -1,0 +1,252 @@
+#koulutus, #tekninen_osaaminen, #harrastukset{
+    background-color: rgba(236, 243, 192, 1);
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+#harrastukset{
+  margin-bottom: 70px;
+}
+
+#title_koulutus, #title_osaaminen, #title_harrastukset{
+  text-align: center;
+  border: 2px solid red;
+  border-bottom-style: dashed;
+  color: black;
+}
+
+.text{
+ font-weight: 700;
+}
+
+small{
+  font-size: 12px;
+  font-weight: 700;
+}
+
+h4{
+  margin-bottom: 0px;
+}
+
+#title_koulutus{
+  margin-left: 14vw;
+  margin-right: 14vw;
+}
+#title_osaaminen{
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+#title_harrastukset{
+  margin-left: 27vw;
+  margin-right: 27vw;
+}
+
+#osaaminen_gridContainer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background-color: rgba(236, 220, 172, 1);
+  border: 2px solid black;
+  padding: 5px;
+}
+
+.osaaminen_item{
+  outline: 1px solid black;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 5px;
+}
+
+/*pc*/
+
+@media only screen and (min-width: 1500px){
+  .float-container {
+    padding-top: 10px;
+  }
+  
+  .float-child {
+    width: 37%;
+    float: left;
+    height: 330px;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  #tekninen_osaaminen{
+    width: 55%;
+  }
+  #harrastukset{
+    height: 200px;
+    margin-left: 9%;
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1350px) and (max-width: 1500px){
+  #osaaminen_gridContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+  .float-child {
+    height: 350px;
+  }
+  #tekninen_osaaminen{
+    width: 58.5%;
+  }
+  #harrastukset{
+    width: 95.5%;
+  }
+  #title_koulutus{
+    margin-left: 12vw;
+    margin-right: 12vw;
+  }
+  #title_osaaminen{
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+  #title_harrastukset{
+    margin-left: 33vw;
+    margin-right: 33vw;
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1350px){
+  #osaaminen_gridContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .float-child {
+    height: 350px;
+  }
+  #tekninen_osaaminen{
+    width: 57%;
+  }
+  #harrastukset{
+    width: 95%;
+  }
+  #title_koulutus{
+    margin-left: 11vw;
+    margin-right: 11vw;
+  }
+  #title_osaaminen{
+    margin-left: 19vw;
+    margin-right: 19vw;
+  }
+  #title_harrastukset{
+    margin-left: 30vw;
+    margin-right: 30vw;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1150px){
+  #osaaminen_gridContainer{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .float-child {
+    height: 445px;
+  }
+  #tekninen_osaaminen{
+    width: 55.5%;
+  }
+  #harrastukset{
+    width: 94%;
+  }
+  #title_koulutus{
+    margin-left: 110px;
+    margin-right: 110px;
+  }
+  #title_osaaminen{
+    margin-left: 170px;
+    margin-right: 170px;
+  }
+  #title_harrastukset{
+    margin-left: 280px;
+    margin-right: 280px;
+  }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1000px){
+  .float-child {
+    height: 535px;
+  }
+  #tekninen_osaaminen{
+    width: 51.5%;
+  }
+  #harrastukset{
+    width: 91.5%;
+  }
+  #title_koulutus{
+    margin-left: 65px;
+    margin-right: 65px;
+  }
+  #title_osaaminen{
+    margin-left: 85px;
+    margin-right: 85px;
+  }
+  #title_harrastukset{
+    margin-left: 155px;
+    margin-right: 155px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px){
+  #osaaminen_gridContainer{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 950px) and (max-width: 1500px){
+  .float-container {
+    padding-top: 10px;
+  }
+  
+  .float-child {
+    width: 33%;
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+  }
+  #harrastukset{
+    height: 200px;
+    margin-left: 10px;
+  }
+}
+
+/*tablet*/
+@media only screen and (min-width: 750px) and (max-width: 950px){
+  .float-container {
+    padding-top: 10px;
+  }
+  
+  .float-child {
+    width: 33%;
+    float: left;
+    margin-left: 10px;
+    padding: 20px;
+  }
+
+  #harrastukset{
+    height: 200px;
+  }
+}
+
+/*mobile*/
+@media only screen and (max-width: 750px){  
+.float-child {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 20px;
+}
+#harrastukset{
+ width: 86.7%;
+}
+#title_koulutus{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#title_osaaminen{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#title_harrastukset{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}

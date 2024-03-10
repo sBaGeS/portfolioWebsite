@@ -1,0 +1,92 @@
+#dialog_title{
+    margin: auto;
+    width: 200px;
+    color: black;
+    border-bottom: 2px solid red;
+    border-bottom-style: dashed;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
+  #Etunimi, #Sukunimi, #Email, #Viesti{
+    width: 300px;
+  }
+
+  #textDiv_contact{
+    width: 300px;
+    margin-left: 30px;
+  }
+
+  #text_contact{
+    color: red;
+    font-weight: 700;
+  }
+
+  #border_outline{
+    border: 4px solid black;
+  }
+
+  #border_form{
+    border: 2px solid green;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 16px;
+    border-radius: 30px;
+  }
+
+  #button_close, #button_send{
+    font-size: 20px;
+    background-color: rgba(236, 243, 192, 1);
+    border: black 2px solid;
+    border-radius: 15px;
+    font-weight: 600;
+  }
+
+  #buttonDiv{
+    float:left;
+    margin: 2px;
+    margin-bottom: 20px;
+  }
+
+  #button_close{
+    margin-right: 30px;
+    cursor: pointer;
+  }
+  #button_send{
+    margin-right: 80px;
+    cursor: pointer;
+  }
+
+  #icon_close{
+    color: darkred;
+    margin-top: 2px;
+  }
+  #icon_send{
+    margin-top: 2px;
+  }
+
+  @media only screen and (max-width: 650px){ 
+    #Etunimi, #Sukunimi, #Email, #Viesti{
+      width: 180px;
+    }
+    #textDiv_contact{
+      width: 180px;
+      margin-left: 30px;
+    }
+
+    #buttonDiv{
+      float:left;
+      margin: 0px;
+      margin-bottom: 20px;
+    }
+  
+    #button_close{
+      margin-right: 10px;
+      cursor: pointer;
+    }
+    #button_send{
+      margin-right: 33px;
+      cursor: pointer;
+    }
+    }

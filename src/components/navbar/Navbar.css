@@ -1,0 +1,121 @@
+
+.navbar {
+  background-color: rgba(97, 205, 116, 1);
+}
+
+.button{
+    font-size: 20px;
+    background-color: rgba(97, 165, 116, 1);
+    border: black 2px solid;
+    border-radius: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.iconSmall{
+  height: 15px;
+}
+
+#homeButton{
+  padding-right: 20px;
+}
+
+#title{
+  margin: auto;
+  width: 200px;
+  color: black;
+  border-bottom: 2px solid red;
+  border-bottom-style: dashed;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*pc*/
+@media only screen and (min-width: 950px){ 
+  #projectButton{
+  position: absolute;
+  right: 40px;
+}
+#profileButton{
+  position: absolute;
+  left: 290px;
+  padding-right: 20px;
+}
+#logo{
+  position: absolute;
+  left: 30px;
+  height: 50px;
+}
+#homeButton{
+  position: absolute;
+  left: 110px;
+}
+}
+
+/*tablet*/
+@media only screen and (min-width: 650px) and (max-width: 950px){ 
+  #projectButton{
+  position: absolute;
+  right: 40px;
+}
+#profileButton{
+  position: absolute;
+  left: 110px;
+  top: 60px;
+  padding-right: 20px;
+}
+#logo{
+  position: absolute;
+  left: 20px;
+  height: 70px;
+}
+#homeButton{
+  position: absolute;
+  left: 110px;
+  top: 15px;
+}
+.navbar{
+  height: 100px;
+}
+}
+
+/*mobile*/
+@media only screen and (max-width: 650px){ 
+  #projectButton{
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+#profileButton{
+  position: absolute;
+  left: 15px;
+  top: 60px;
+  padding-right: 20px;
+}
+#logo{
+  margin-left: 45%;
+  margin-bottom: 40px;
+  height: 40px;
+}
+.navbar{
+  height: 100px;
+}
+#homeButton{
+  position: absolute;
+  top: 15px;
+}
+#title{
+  position: relative;
+  top: 0px;
+  right: 25%;
+}
+.button{
+  font-size: 15px;
+  background-color: rgba(97, 165, 116, 1);
+  border: black 2px solid;
+  border-radius: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+}
+
