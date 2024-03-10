@@ -10,15 +10,15 @@ export default function Navbar() {
     let navigate = useNavigate();
 
     function handleProjectClick(){
-        navigate("/all_projects/");
+        navigate("/portfolioWebsite/all_projects");
     }
 
     function handleProfileClick(){
-        navigate("/profile/");
+        navigate("/portfolioWebsite/profile");
     }
 
     function handleHomeClick(){
-        navigate("/");
+        navigate("/portfolioWebsite/");
     }
 
         return (
