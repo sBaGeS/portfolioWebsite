@@ -18,7 +18,7 @@ export default function Navbar() {
     }
 
     function handleHomeClick(){
-        navigate("portfolioWebsite/");
+        navigate("/");
     }
 
         return (
