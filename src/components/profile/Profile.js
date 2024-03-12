@@ -107,8 +107,8 @@ export default function Profile() {
              Diagnosed with Asperger's Syndrome, embracing unique perspectives and approaches to problem-solving.
              <br/><br/>
              My hobbies include playing videogames such as Supremacy1914, Baldurs Gate3 and CS2 with my friends and sometimes streaming while doing that.
-             I also like to watch a lot tv-series and movies and youtube. When it comes to movies my favourite gategories are scifi and action, favourite 
-             tv-series so The Expanse, and what comes to youtube i watch whatever i feel like or need at the moment sometimes thats a spesific coding tutorial
+             I also like to watch a lot tv-series and movies and youtube. When it comes to movies my favourite gategories are scifi and action, my favourite 
+             tv-series so far: The Expanse, and what comes to youtube i watch whatever i feel like or need at the moment sometimes thats a spesific coding tutorial
              or other tutorial to solve a problem im working on at the moment, sometimes thats listening to music, gaming related videos, youtube creator drama,
              true crime, documentaries, tech reviews, educational videos to learn about new interesting topics and so on. I feel like youtube has so much to
              offer for me in a very broad spectrum from simple entertainment to tutorials and learning about new interesting things to being kept up to date with
