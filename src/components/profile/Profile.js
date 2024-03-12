@@ -19,25 +19,26 @@ export default function Profile() {
              <br/>
              <a className="text">Savonia Code Academy. Savonia university of applied sciences, Kuopio 2020.</a>
              <br/>
-             <a className="text">ICT-Technician. Savos vocational school, Kuopio 2019.</a>
+             <a className="text">ICT-Technician. Savo vocational school, Kuopio 2019.</a>
              </div>
              <div id="tekninen_osaaminen" className="float-child">
              <h2 id='title_osaaminen'>Technical skills</h2>
 
              <div id="osaaminen_gridContainer">
-             <div className='osaaminen_item'>
-            <h4><AiOutlineFileWord/>Word</h4>
-            <small>Decent</small>
+
+            <div className='osaaminen_item'>
+            <h4><SiJavascript/>Javascript</h4>
+            <small>Excellent</small>
+            </div>
+
+            <div className='osaaminen_item'>
+            <h4><FaNodeJs/>Nodejs </h4>
+            <small>Excellent</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><FaRegFilePowerpoint/>Powerpoint</h4>
             <small>Good</small>
-            </div>
-
-            <div className='osaaminen_item'>
-            <h4><AiOutlineFileExcel/>Excel</h4>
-            <small>Basics</small>
             </div>
 
             <div className='osaaminen_item'>
@@ -51,16 +52,6 @@ export default function Profile() {
             </div>
 
             <div className='osaaminen_item'>
-            <h4><SiJavascript/>Javascript</h4>
-            <small>Excellent</small>
-            </div>
-
-            <div className='osaaminen_item'>
-            <h4><FaNodeJs/>Nodejs </h4>
-            <small>Excellent</small>
-            </div>
-
-            <div className='osaaminen_item'>
             <h4><SiMysql/>SQL</h4>
             <small>Good</small>
             </div>
@@ -69,15 +60,25 @@ export default function Profile() {
             <h4><FaReact/>React</h4>
             <small>Good</small>
             </div>
-
+            
             <div className='osaaminen_item'>
-            <h4>C#</h4>
-            <small>Basics</small>
+            <h4><AiOutlineFileWord/>Word</h4>
+            <small>Decent</small>
             </div>
 
             <div className='osaaminen_item'>
             <h4><FaUnity/>Unity</h4>
             <small>Decent</small>
+            </div>
+
+            <div className='osaaminen_item'>
+            <h4><FaGitAlt/>Git</h4>
+            <small>Decent</small>
+            </div>
+      
+            <div className='osaaminen_item'>
+            <h4>C#</h4>
+            <small>Basics</small>
             </div>
 
             <div className='osaaminen_item'>
@@ -91,8 +92,8 @@ export default function Profile() {
             </div>
 
             <div className='osaaminen_item'>
-            <h4><FaGitAlt/>Git</h4>
-            <small>Decent</small>
+            <h4><AiOutlineFileExcel/>Excel</h4>
+            <small>Basics</small>
             </div>
 
             </div>
@@ -104,7 +105,7 @@ export default function Profile() {
              my sparetime on my computer.<br/><br/>I watch a lot of youtube, tv-series and movies, play games like Supremacy1914,
              Baldurs Gate3 and CS2 and code my own videogame related projects.
              <br/><br/>
-             Im also socially akward introvert diagnosed with Asperger.
+             I consider myself an introvert and socially akward to some degree, as i have been diagnosed with asperger.
              </a>
 
              </div>
