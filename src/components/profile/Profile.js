@@ -101,11 +101,18 @@ export default function Profile() {
              </div>
              <div id="harrastukset" className='float-child'>
              <h2 id='title_harrastukset'>About myself</h2>
-             <a className="text">I like computers and It-stuff, i spend most of
-             my sparetime on my computer.<br/><br/>I watch a lot of youtube, tv-series and movies, play games like Supremacy1914,
-             Baldurs Gate3 and CS2 and code my own videogame related projects.
+             <a className="text">Enthusiastic and dedicated individual with a profound passion for technology, particularly in the domain of video games. 
+             Skilled in coding and actively engaged in crafting personal projects with most of them centered around gaming, more about those in the projects section. 
+             Embraces honesty and integrity, constantly driven to expand knowledge and skills.
+             Diagnosed with Asperger's Syndrome, embracing unique perspectives and approaches to problem-solving.
              <br/><br/>
-             I consider myself an introvert and socially akward to some degree, as i have been diagnosed with asperger.
+             My hobbies include playing videogames such as Supremacy1914, Baldurs Gate3 and CS2 with my friends and sometimes streaming while doing that.
+             I also like to watch a lot tv-series and movies and youtube. When it comes to movies my favourite gategories are scifi and action, favourite 
+             tv-series so The Expanse, and what comes to youtube i watch whatever i feel like or need at the moment sometimes thats a spesific coding tutorial
+             or other tutorial to solve a problem im working on at the moment, sometimes thats listening to music, gaming related videos, youtube creator drama,
+             true crime, documentaries, tech reviews, educational videos to learn about new interesting topics and so on. I feel like youtube has so much to
+             offer for me in a very broad spectrum from simple entertainment to tutorials and learning about new interesting things to being kept up to date with
+             whats happening around the world.
              </a>
 
              </div>
