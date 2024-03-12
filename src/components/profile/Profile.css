@@ -4,10 +4,6 @@
     margin-bottom: 10px;
 }
 
-#harrastukset{
-  margin-bottom: 70px;
-}
-
 #title_koulutus, #title_osaaminen, #title_harrastukset{
   text-align: center;
   border: 2px solid red;
@@ -74,9 +70,10 @@ h4{
     width: 55%;
   }
   #harrastukset{
-    height: 200px;
+    height: 270px;
     margin-left: 9%;
     width: 80%;
+    margin-bottom: 70px;
   }
 }
 
@@ -84,14 +81,15 @@ h4{
   #osaaminen_gridContainer{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   }
-  .float-child {
-    height: 350px;
-  }
   #tekninen_osaaminen{
     width: 58.5%;
   }
   #harrastukset{
     width: 95.5%;
+    height: 1000px;
+  }
+  #koulutus{
+    height: 350px;
   }
   #title_koulutus{
     margin-left: 12vw;
@@ -203,8 +201,9 @@ h4{
     padding: 20px;
   }
   #harrastukset{
-    height: 200px;
+    height: 400px;
     margin-left: 10px;
+    margin-bottom: 70px;
   }
 }
 
@@ -222,7 +221,9 @@ h4{
   }
 
   #harrastukset{
-    height: 200px;
+    width: 90.5%;
+    height: 450px;
+    margin-bottom: 70px;
   }
 }
 
@@ -236,6 +237,8 @@ h4{
 }
 #harrastukset{
  width: 86.7%;
+ height: 650px;
+ margin-bottom: 70px;
 }
 #title_koulutus{
   margin-left: 100px;
