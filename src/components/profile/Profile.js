@@ -17,7 +17,7 @@ export default function Profile() {
              <a className="text"> Gameprogramming. South-Eastern Finland University of Applied Sciences, Kotka 2022-2023. Changed my
              degree to Cybersecurity after studying 1 year of gameprogramming.</a>
              <br/>
-             <a className="text">Savonia Code Academy. Savonia university of applied sciences, Kuopio 2020.</a>
+             <a className="text">Savonia Code Academy. Savonia University of Applied Sciences, Kuopio 2020.</a>
              <br/>
              <a className="text">ICT-Technician. Savo vocational school, Kuopio 2019.</a>
              </div>
