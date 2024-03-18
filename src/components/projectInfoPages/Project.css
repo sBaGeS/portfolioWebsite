@@ -85,9 +85,9 @@ font-weight: 700;
     height: 190px;
   }
   #video1, #video2, #video3{
-    width: 320px;
-    height: 190px;
-    margin-left: 12%;
+    width: 300px;
+    height: 160px;
+    margin-left: 10%;
     margin-top: 15px;
   }
   }
